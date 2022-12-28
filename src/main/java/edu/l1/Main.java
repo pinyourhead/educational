@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Main {
 
   static String[] names = {"vasia", "petia", "kolia"};
+  static String[][] example = new String[3][4]; // равномерный массив 3 массива по 4 эл-та
+  static String[][] example2 = new String [3][];
+  static String[][] example3 ;
+  static String[][] example4 = {{"a"}, {"a", "b"}, {"c"}, {}} ;
+
   static Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) {
